@@ -15,7 +15,7 @@ public class LinkedHashMapDemo {
 		names.put(460,"Soham");
 		names.put(488,"Vedant");
 		
-		System.out.println(names);
+		System.out.println(names);  ///it print the names in similiar order as per written
 		
 
 	}
