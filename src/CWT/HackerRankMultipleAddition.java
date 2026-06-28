@@ -8,7 +8,7 @@ public class HackerRankMultipleAddition {
 		// TODO Auto-generated method stub
 		
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the number :");
+		
 		
 		
 		int num =  sc.nextInt();
@@ -24,8 +24,9 @@ public class HackerRankMultipleAddition {
 			}
 		}
 		 
-		 
-			 System.out.println("Sum = " + sum);
+		 if(sum >= 1) {
+			 System.out.println(sum);
+		 }
 		}
 		
 
